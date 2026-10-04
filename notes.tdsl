@@ -1,0 +1,27 @@
+notes on the rl textbook
+
+1.1 he seems to have beef with other machine learning researchers and thinks his level of generality and perspective is optimal. the overall picture of research is not super helpful context for me atp
+
+1.2 tag urself im the gazelle
+
+1.3 
+policy
+  mapping from percieved states of env -> actions to be taken
+reward signal
+  the only goal. the primary basis for altering the policy
+value function
+  reward signal: immdeiate. value function: long run
+  value of a state: the total reward an agent can expect to accumulate over the future from that stateo
+  
+  reward: plaesure/pain. value function: farsighted prediction of reward
+  values drive decisions, because thats how we get most reward.
+  value estimation is core and difficult
+
+  reminds me of working out: low reward (hurts), high value (will eventually lead to pussy)
+
+
+model
+  mimics behavior of environment. 
+  given state/action, produce next state/next reward
+  
+model (optional)
